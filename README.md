@@ -1,7 +1,7 @@
- What I Did
+ Today What I Do
  ===
 
-> 나는 무엇을 했나요?
+> 나는 무엇을 하나요?
 
 * 좋은 개발자가 되기 위해 하루동안 학습한 내용이나 개발관련 경험들을 기록으로 남긴다.
 * 기본기를 중심으로 학습하고, 나아가 기본기를 바탕으로 발전하는 개발자가 된다.
@@ -27,12 +27,13 @@
 
 ### Kotlin
 * [Null](https://github.com/minhyuuk/WID/blob/main/Kotlin/Null.md)
+* [Resource](https://github.com/minhyuuk/WID/blob/main/Kotlin/Resource.md)
   
 ### Design Pattern
 * Design Pattern
 
 ### Database
-* Database
+* [SQLite란](https://github.com/minhyuuk/WID/blob/main/Kotlin/Resource.md)
 
 ### Algorithms
 * Algorithms
