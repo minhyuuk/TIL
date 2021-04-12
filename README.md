@@ -26,7 +26,7 @@
 
 
 ### Kotlin
-* Kotlin
+* [Null](https://github.com/minhyuuk/WID/blob/main/Kotlin/Null.md)
   
 ### Design Pattern
 * Design Pattern
