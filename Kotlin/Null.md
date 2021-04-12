@@ -1,11 +1,11 @@
 # Null
 
-## 공식 홈페이지
+## Android Developrs
 
-[Android Developer](https://kotlinlang.org/docs/reference/null-safety.html)
+[Android Developers : Null](https://kotlinlang.org/docs/reference/null-safety.html)
 #
 
-## Null Safety란?
+## Null Safety란?<br><br>
 
 Null을 안전하게 처리한다는 뜻이다. 코틀린의 특징 중 하나이며 Null은 안전하지 않기 때문에 코틀린에서 Null을 안전하게 사용될 수 있도록 구성하고 있다.<br>
 
