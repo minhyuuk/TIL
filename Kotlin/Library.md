@@ -5,7 +5,6 @@
 [Android Developers : Library](https://developer.android.com/topic/libraries/support-library?hl=ko)
 
 ---
-<br><br>
 
  라이브러리는 내가 개발을 하기 위해 필요한 도구들이 미리 구현되어 있는 것이다. 함수나 클래스로 구성되어 있고 프레임워크에는 포함되지 않는다.
 
