@@ -1,6 +1,6 @@
-# Thread
+# Library
 
-## Android developers
+## Android Developers
 
 [Android Developers : Library](https://developer.android.com/topic/libraries/support-library?hl=ko)
 
