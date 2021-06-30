@@ -18,6 +18,7 @@
 ### 분류
 
 * 코틀린
+* 강의
 * 디자인패턴
 * 데이터베이스
 * 알고리즘
@@ -33,6 +34,10 @@
 * [Library](https://github.com/minhyuuk/WID/blob/main/Kotlin/Library.md)
 * [Thread](https://github.com/minhyuuk/WID/blob/main/Kotlin/Thread.md)
   
+### Communications
+* [2021 Google I/O 1번째 정리](구글IO/IO_1.md)
+* [2021 Google I/O 2번째 정리](구글IO/IO_2.md)
+
 ### Design Pattern
 * Design Pattern
 

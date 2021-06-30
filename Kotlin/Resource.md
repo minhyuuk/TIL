@@ -17,9 +17,11 @@ colors는 **색깔**을 지정
 strings는 **text에 넣을 값**을 지정
 
 styles는 **테마**를 꾸민다
+
 #
 ## Colors에 대한 예시
 ### res → values 경로로 이동
+
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <resources>

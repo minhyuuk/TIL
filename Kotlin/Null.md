@@ -5,13 +5,12 @@
 [Android Developers : Null](https://kotlinlang.org/docs/reference/null-safety.html)
 #
 
-## Null Safety란?<br><br>
+## Null Safety란?<br>
 
-Null을 안전하게 처리한다는 뜻이다. 코틀린의 특징 중 하나이며 Null은 안전하지 않기 때문에 코틀린에서 Null을 안전하게 사용될 수 있도록 구성하고 있다.<br>
+- Null을 안전하게 처리한다는 뜻이다. 코틀린의 특징 중 하나이며 Null은 안전하지 않기 때문에 코틀린에서 Null을 안전하게 사용될 수 있도록 구성하고 있다.<br>
 
-<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/5016962f-f207-4c2f-92df-c8bd539c3ada/__2020-12-28_202922.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210629%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210629T115936Z&X-Amz-Expires=86400&X-Amz-Signature=1532b8c42368c8574312c931099938dc33409503589a3b9782932bb9b9d52dc9&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22__2020-12-28_202922.png%22" width = "600px" height = "300px"></img>
 
- Null을 사용하게 되면 NullPointerExceptionError가 뜬다. 에러가 뜨지 않게 하기위해 우리는 그에 맞게 사용하는 문법을 사용한다.<br><br>
+ - Null을 사용하게 되면 NullPointerExceptionError가 뜬다. 에러가 뜨지 않게 하기위해 우리는 그에 맞게 사용하는 문법을 사용한다.<br><br>
 
 ## 😠사용방법😃 <br><br>
 
