@@ -1,46 +1,33 @@
-# Thread
+#### Thread
 
-## Android Developers
 
-[Android Developers : Thread](https://developer.android.com/reference/java/lang/Thread)
-#
+#### 기본적 사전 의미
 
-## Thread란?<br><br>
+**스레드**
+* 동시 작업을 위한 하나의 작업 단위이자 프로세스 내에서 순차적으로 실행되는 실행흐름의 최소 단위이다.
 
- Thread는 작업의 흐름이다. 무언가를 백그라운드로 돌려놓고 다른 여러가지 일을 하는 것이 스레드라고 할 수 있다. <br><br>
+**멀티 스레드**
+* 한 프로세스 내에서 둘 이상의 스레드가 동시에 실행되는 것을 말한다.
 
-## Thread의 필요성<br><br>
+**멀티 프로세스**
+* 여러개의 CPU에서 여러개의 프로세스가 실행되는 것을 의미한다.<br><br>
 
- 외부 Thread 가 없이 Main Thread 만으로만 구현하게 된다면, 이러한 문제가 생긴다. 어떠한 버튼을 눌렀을 때 Main Thread 내부적으로 10초 이상이 걸리는 작업을 한다고 치면, 사용자는 그 일이 끝날 때까지 멈춰있는 화면만 보고 있어야 한다. 그렇기 떄문에 오래 걸리는 작업들을 외부 Thread를 통해 해결한다.<br><br>
+#### 멀티 스레드를 사용하는 이유
 
- 
+모든 작업들이 UI 스레드에서만 처리되는 경우, 네트워크를 불러오는 등 너무 긴 작업들은 UI 쓰레드에서 블록될 수 있고 UI 쓰레드는 아무것도 할 수 없게 된다. 이렇게 되면 앱이 정상적이여도 **죽은 것처럼** 보이고 ANR 이라는 애플리케이션 응답 없음 에러를 뱉기도 한다. 그래서 UI 스레드를 **블록**되게 하지 않는 게 중요하다. 그럴 때 **멀티 스레드**를 사용한다.<br><br>
 
-## Thread 사용법<br><br>
+#### 메인 스레드에서 UI 작업을 진행해야하는 이유는?
+예를 들어 설명을 하자면
 
-1초 마다 현재 시간을 갱신하는 코드
+이미지를 그리는 스레드 A,
+버튼을 그리는 스레드 B,
+텍스트를 그리는 스레드 C 가 있을 때
 
-```
-class MainActivity : AppCompatActivity() {
+A-B-C 순서대로 스레드가 실행된다면 원하는 UI를 그릴 수 있지만 상대적으로 크기가 작은 텍스트를 가진 C 스레드가 먼저 실행되고 엄청 큰 이미지인 A 스레드가 나중에 실행된다면 원하는 뷰가 나오지 않을 수 있다. 그러므로 UI 작업은 **하나의 스레드**에서만 실행이 되어야 한다. 하나의 스레드는 **메인 스레드**를 얘기하는것이다.<br><br>
 
-    var clockTextView: TextView? = null
+---
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        // ...
+또한 서브 스레드에서도  UI 작업을 진행할 수 있다고 생각하지만 **handler**를 통해 메인 스레드에 **UI 작업**을 **요청**하는것이지 서브 스레드에서  UI 작업을 진행하는건 아닙니다.<br><br>
 
-        clockTextView = findViewById(R.id.clock)
-
-        thread(start = true) {
-            var cal = Calendar.getInstance()
-            var sdf = SimpleDateFormat("HH:mm:ss")
-
-            while (true) {
-                val strTime = sdf.format(cal.time)
-                clockTextView?.setText(strTime)
-
-                Thread.sleep(1000)
-            }
-        }
-    }
-```
-
- 메인 Thread는 할 일을 끝낸 후 다음 일을 진행할 수 있지만 Thread를 많이 사용한다면 여러가지 일을 한 번에 할 수 있다. Thread의 개념이 부족하다면 더욱 공부를 해보는 것이 좋다.
+#### 참고
+[Android Developers Thread 관련 공식문서](https://developer.android.com/reference/java/lang/Thread)
