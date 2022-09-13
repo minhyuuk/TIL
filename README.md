@@ -15,15 +15,22 @@
 
 
 ##### Android
-* Essential
+
+* OOP
+    * [OOP](https://github.com/minhyuuk/WID/blob/main/Kotlin/OOP.md)
+<br>
+
+* Kotlin
     * [Thread](https://github.com/minhyuuk/WID/blob/main/Kotlin/Thread.md)
     * [Companion Object](https://github.com/minhyuuk/TIL/blob/main/Kotlin/Companion_Object.md)
     * [Null](https://github.com/minhyuuk/WID/blob/main/Kotlin/Null.md)
-    * [Resource](https://github.com/minhyuuk/WID/blob/main/Kotlin/Resource.md)
+    * [Resource( colors / strings / styles )](https://github.com/minhyuuk/WID/blob/main/Kotlin/Resource.md)
     * [Context](https://github.com/minhyuuk/WID/blob/main/Kotlin/Context.md)
     * [Drawerlayout](https://github.com/minhyuuk/WID/blob/main/Kotlin/Drawerlayout.md)
     * [Library](https://github.com/minhyuuk/WID/blob/main/Kotlin/Library.md)
     * [SQLite](https://github.com/minhyuuk/WID/blob/main/Kotlin/Resource.md)
+    
+
 
 <br>
 
