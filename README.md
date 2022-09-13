@@ -17,7 +17,7 @@
 ##### Android
 * Essential
     * [Thread](https://github.com/minhyuuk/WID/blob/main/Kotlin/Thread.md)
-    * [Companion Object](https://github.com/minhyuuk/WID/blob/main/Kotlin/Companion_Object)
+    * [Companion Object](https://github.com/minhyuuk/TIL/blob/main/Kotlin/Companion_Object.md)
     * [Null](https://github.com/minhyuuk/WID/blob/main/Kotlin/Null.md)
     * [Resource](https://github.com/minhyuuk/WID/blob/main/Kotlin/Resource.md)
     * [Context](https://github.com/minhyuuk/WID/blob/main/Kotlin/Context.md)
