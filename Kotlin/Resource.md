@@ -1,9 +1,5 @@
-# Resource
+#### Resource
 
-## Android Developers
-
-[Android Developers : Resource](https://developer.android.com/guide/topics/resources/providing-resources?hl=ko)
-#
 
 
 
