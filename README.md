@@ -17,7 +17,7 @@
 #### Android
 
 * OOP
-    * [OOP 관련 용어에 대해](https://github.com/minhyuuk/WID/blob/main/oop_basic_keyword/)
+    * [OOP 관련 용어에 대해](https://github.com/minhyuuk/TIL/blob/main/OOP/oop_basic_keyword.md)
     * [OOP](https://github.com/minhyuuk/WID/blob/main/OOP/oop.md)
     
 
@@ -30,7 +30,7 @@
     * [Drawerlayout](https://github.com/minhyuuk/WID/blob/main/Kotlin/drawerlayout.md)
     * [Library](https://github.com/minhyuuk/WID/blob/main/Kotlin/library.md)
     * [SQLite](https://github.com/minhyuuk/WID/blob/main/Kotlin/resource.md)
-    
+    * [Activity](https://github.com/minhyuuk/WID/blob/main/Kotlin/activity.md)
 
 
 <br>
