@@ -27,7 +27,19 @@ A-B-C 순서대로 스레드가 실행된다면 원하는 UI를 그릴 수 있�
 
 ---
 
-또한 서브 스레드에서도  UI 작업을 진행할 수 있다고 생각하지만 **handler**를 통해 메인 스레드에 **UI 작업**을 **요청**하는것이지 서브 스레드에서  UI 작업을 진행하는건 아닙니다.<br><br>
+또한 서브 스레드에서도  UI 작업을 진행할 수 있다고 생각하지만 **handler**를 통해 메인 스레드에 **UI 작업**을 **요청**하는것이지 서브 스레드에서  UI 작업을 진행하는건 아니다.
+
+---
+<br>
+
+
+#### 스레드는 start 와 run 방식이 있는데,
+
+<br>
+
+**start** 방식은 JVM 에서 스레드를 위한 **call stack(stack 영역)을 새로 만들기 때문에**, <u>독립적으로 사용이 가능</u>하고 **run** 방식은 **메인 스레드의 call stack을 사용하기 때문에** <u>run 메소드가 끝날 때 까지 다른 작업을 진행하지 못한다.</u>
+
+<br>
 
 #### 참고
 [Android Developers Thread 관련 공식문서](https://developer.android.com/reference/java/lang/Thread)
