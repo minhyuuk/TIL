@@ -1,14 +1,12 @@
-#### Drawerlayout
-
-## Drawerlayout이란? <br><br>
+#### Drawerlayout이란? <br><br>
 
 화면의 각 부분에서 당겼을 때 이름처럼 서랍(Drawer)을 여는 것과 마찬가지로 꺼내는 역할을 수행한다고 하여 Drawerlayout이라 한다.
 
 <img src="https://t1.daumcdn.net/cfile/tistory/9957AE3359E0731211" width="600px" height="350px"><br>
 
 ## 사용방법
->다른 레이아웃 파일을 하나 만든 뒤 이런 식으로 코드를 작성하시면 됩니다.<br><br>
-이 레이아웃의 이름을 저는 layout_slide_menu로 설정했습니다.
+> 다른 레이아웃 파일을 하나 만든 뒤 이런 식으로 코드를 작성하면 된다.<br><br>
+이 레이아웃의 이름을 layout_slide_menu로 설정했다.
 
 ```kotlin
 
@@ -78,11 +76,8 @@ R.id.iv_hamburger -> {
                 }
 ```
 
-여기서 나온 iv_hamburger는 제가 만든 이미지의 id값이며 첫 번째 if else문은 **이미지 클릭 시** drawer layout이 열리는 것이며 두 번째 if else문은 **빈 곳을 클릭**하게 된다면 drawer layout이 닫히게 되는 코드입니다.<br><br>
-
-일부 코드만 보여드려 이해가 어려울 수 있지만 혹시나 궁금한 점이나 어려운 점이 있다면 저의 깃허브에서 Contact me를 확인해주세요.<br><br>
-
-많이 미흡하지만 봐주셔서 감사합니다.<br><br>
+여기서 나온 iv_hamburger는 이미지의 id값이며 첫 번째 if else문은 **이미지 클릭 시** drawer layout이 열리는 것이며 두 번째 if else문은 **빈 곳을 클릭**하게 된다면 drawer layout이 닫히게 되는 코드이다.<br><br>
 
 #### 참고
+https://developer.android.com/jetpack/androidx/releases/drawerlayout?hl=ko
 https://recipes4dev.tistory.com/139
