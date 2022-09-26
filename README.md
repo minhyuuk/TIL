@@ -32,7 +32,8 @@
     * [SQLite](https://github.com/minhyuuk/WID/blob/main/Kotlin/resource.md)
     * [Activity](https://github.com/minhyuuk/WID/blob/main/Kotlin/activity.md)
 
-
+* Layout
+    * [DrawerLayout](https://github.com/minhyuuk/TIL/blob/main/Kotlin/Layout/Drawerlayout.md)
 <br>
 
 #### Lecture
