@@ -15,11 +15,15 @@
 
 
 #### Android
+* CS
+    * [동기와 비동기, 블로킹과 논 블로킹](https://github.com/minhyuuk/TIL/blob/main/CS/synchronous_asynchronous.md)
+    * [프로세스와 스레드](https://github.com/minhyuuk/TIL/blob/main/CS/process_thread)
+
 
 * OOP
-    * [OOP 관련 용어에 대해](https://github.com/minhyuuk/TIL/blob/main/OOP/oop_basic_keyword.md)
-    * [OOP](https://github.com/minhyuuk/WID/blob/main/OOP/oop.md)
-    
+    * [객체지향 프로그래밍(OOP)](https://github.com/minhyuuk/WID/blob/main/OOP/oop.md)
+    * [객체지향 관련 용어에 대해](https://github.com/minhyuuk/TIL/blob/main/OOP/oop_basic_keyword.md)
+    * [SOLID 원칙](https://github.com/minhyuuk/TIL/blob/main/OOP/solid.md)
 
 * Kotlin
     * [Thread](https://github.com/minhyuuk/WID/blob/main/Kotlin/thread.md)
@@ -27,13 +31,12 @@
     * [Null](https://github.com/minhyuuk/WID/blob/main/Kotlin/null.md)
     * [Resource( colors / strings / styles )](https://github.com/minhyuuk/WID/blob/main/Kotlin/resource.md)
     * [Context](https://github.com/minhyuuk/WID/blob/main/Kotlin/context.md)
-    * [Drawerlayout](https://github.com/minhyuuk/WID/blob/main/Kotlin/drawerlayout.md)
     * [Library](https://github.com/minhyuuk/WID/blob/main/Kotlin/library.md)
     * [SQLite](https://github.com/minhyuuk/WID/blob/main/Kotlin/resource.md)
     * [Activity](https://github.com/minhyuuk/WID/blob/main/Kotlin/activity.md)
 
 * Layout
-    * [DrawerLayout](https://github.com/minhyuuk/TIL/blob/main/Kotlin/Layout/Drawerlayout.md)
+    * [DrawerLayout](https://github.com/minhyuuk/TIL/blob/main/Kotlin/Layout/drawerlayout.md)
 <br>
 
 #### Lecture
