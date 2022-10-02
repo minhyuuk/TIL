@@ -36,7 +36,7 @@
 <br>
 
 * Design Pattern
-    * [MVP]("https://github.com/minhyuuk/WID/blob/main/Kotlin/Design_Pattern/mvp.md")
+    * [MVP](https://github.com/minhyuuk/WID/blob/main/Kotlin/Design_Pattern/mvp.md)
 
 <br>
 
