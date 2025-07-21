@@ -53,6 +53,11 @@
 
 <br>
 
+#### AI Tools.
+* [Cursor](ai-tools/cursor.md)
+
+
+<br>
 #### Etc.
 * [2021 Google I/O 1번째 정리](etc/IO_1.md)
 * [2021 Google I/O 2번째 정리](etc/IO_2.md)
