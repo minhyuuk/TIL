@@ -3,13 +3,13 @@
 
 
 #### Android.
+* [안드로이드 전용 터미널 명령어](android/terminal-command.md)
 
 > ##### Base.
 
-* [Activity](android/Base/activity.md)
-* [Context](android/Base/context.md)
-* [Thread](android/Base/thread.md)
-* [SQLite](android/resource.md)
+* [Activity](android/base/activity.md)
+* [Context](android/base/context.md)
+* [Thread](android/base/thread.md)
 * [Room](android/base/room.md)
 * [SQLite](android/base/sqlite.md)
 
@@ -21,8 +21,8 @@
 <br>
 
 #### Kotlin.
-* [Companion Object](https://github.com/minhyuuk/TIL/blob/main/Android/Base/companion-object.md)
-* [Null](https://github.com/minhyuuk/TIL/blob/main/Android/Base/null.md)
+* [Companion Object](kotlin/companion-object.md)
+* [Null](kotlin/null.md)
 <br>
 
 #### OOP.
