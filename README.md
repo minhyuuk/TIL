@@ -48,8 +48,9 @@
 
 <br>
 
-#### IT voca.
-* [파인튜닝](keywords/fine-tuning.md)
+#### Voca.
+* [약어 또는 일반 용어](voca/terminologies.md)
+* [IT 용어](voca/it-terminologies.md)
 
 <br>
 
