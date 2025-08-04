@@ -1,12 +1,10 @@
 ### 오늘의 부족함을 내일의 성취로 만들자. 👍
 > 정민혁의 메모장 * 2025-07-18 ~
 
-
 #### Android.
 * [안드로이드 전용 터미널 명령어](android/terminal-command.md)
 
 > ##### Base.
-
 * [Activity](android/base/activity.md)
 * [Context](android/base/context.md)
 * [Thread](android/base/thread.md)
@@ -17,12 +15,15 @@
 * [Resource( colors / strings / styles )](android/layout/resource.md)
 * [DrawerLayout](android/layout/drawerlayout.md)
 
+> ##### Etc.
+* [minSdk는 언제 올려야할까?](android/etc/minsdk.md)
 
 <br>
 
 #### Kotlin.
 * [Companion Object](kotlin/companion-object.md)
 * [Null](kotlin/null.md)
+
 <br>
 
 #### OOP.
