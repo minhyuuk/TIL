@@ -14,7 +14,7 @@ minSdk 를 설정한다는건 어떤 OS 버전까지 지원할껀지에 대해 �
 ### 1. 서비스중인 앱의 OS 분포 비율 확인
 > Google 에서 발표한 OS 비율이 아닌 "우리 서비스 사용자 비율" 을 체크하자.
 
-<img src="/Users/minhyuuk/VsCodeProject/TIL/img/android-os-ratio.png" width="600px" height="350px"><br>
+<img src="https://raw.githubusercontent.com/minhyuuk/TIL/refs/heads/main/img/android-os-ratio.png" width="600px" height="350px"><br>
 
 전세계 OS 비율에 따르면 낮은 OS 비율이 높은걸로 파악됨. 우리 서비스의 유저 OS 비율과는 다르기 떄문에 서비스를 기준으로 minSdk 를 설정해야함.
 
