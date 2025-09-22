@@ -61,6 +61,7 @@
 <br>
 
 #### AI Tools.
+* [프롬프트 3원칙 (개발)](ai-tools/prompt-rules.md)
 * [Cursor](ai-tools/cursor.md)
 
 
