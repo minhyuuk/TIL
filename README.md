@@ -21,6 +21,7 @@
 * [DrawerLayout](android/layout/drawerlayout.md)
 
 > ##### Etc.
+* [fastlane CI/CD 적용 방법](android/etc/fastlane.md)
 * [minSdk는 언제 올려야할까?](android/etc/minsdk.md)
 
 <br>
@@ -61,7 +62,6 @@
 <br>
 
 #### AI Tools.
-* [프롬프트 3원칙 (개발)](ai-tools/prompt-rules.md)
 * [Cursor](ai-tools/cursor.md)
 
 
